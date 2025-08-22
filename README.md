@@ -24,5 +24,5 @@ It shows how to:
 
 ### Clone repo
 ```bash
-git clone https://github.com/YOUR-USERNAME/minimal-rag-demo.git
+git clone https://github.com/sanjitchitturi/minimal-rag-demo.git
 cd minimal-rag-demo
