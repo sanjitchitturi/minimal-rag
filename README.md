@@ -1,8 +1,6 @@
 # Minimal RAG
 
-A simple **Retrieval-Augmented Generation (RAG)** system implemented in Python.  
-Runs **fully locally** with Hugging Face models — **no API keys required**.  
-Perfect for learning the fundamentals of embeddings, vector search, and RAG pipelines.  
+A simple **Retrieval-Augmented Generation (RAG)** system implemented in Python. Runs **fully locally** with Hugging Face models — **no API keys required**. Perfect for learning the fundamentals of embeddings, vector search, and RAG pipelines.  
 
 ---
 
