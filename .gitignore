@@ -1,1 +1,42 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
 
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+
+# Jupyter notebook checkpoints (if you add notebooks later)
+.ipynb_checkpoints/
+
+# macOS system files
+.DS_Store
+
+# Hugging Face / Transformers cache (large model files)
+.cache/
+huggingface/
+~/.cache/huggingface/
+
+# Logs
+*.log
+
+# VS Code settings
+.vscode/
+
+# Byte-compiled / optimized / DLL files
+*.dll
+*.dylib
+*.exe
+
+# Model checkpoints (if you save models later)
+*.bin
+*.pt
+*.ckpt
+
+# Local testing files
+tmp/
