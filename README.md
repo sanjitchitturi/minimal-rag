@@ -120,6 +120,4 @@ Feel free to fork, modify, and share!
 * [Sentence Transformers](https://www.sbert.net/)
 * [FAISS](https://github.com/facebookresearch/faiss)
 
-```
-
 ---
