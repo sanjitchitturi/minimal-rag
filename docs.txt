@@ -1,5 +1,5 @@
-Retrieval-Augmented Generation (RAG) is a technique that combines
-retrieval from a knowledge base with a generative model.
-FAISS is a library for efficient similarity search on dense vectors.
-Sentence Transformers are models that convert text into embeddings.
-This project is a minimal demo of RAG for learning purposes.
+Retrieval-Augmented Generation (RAG) is a technique that combines information retrieval with text generation.
+It improves factual accuracy by grounding answers in external documents.
+RAG works by splitting text into chunks, creating embeddings, and indexing them in a vector store.
+During query time, the system retrieves the most relevant chunks and passes them to a language model to generate an answer.
+This approach allows small models to perform better by relying on retrieved context.
