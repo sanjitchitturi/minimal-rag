@@ -1,4 +1,4 @@
-# Minimal Local RAG Demo
+# Minimal RAG
 
 A simple **Retrieval-Augmented Generation (RAG)** system implemented in Python.  
 Runs **fully locally** with Hugging Face models — **no API keys required**.  
@@ -17,13 +17,13 @@ Perfect for learning the fundamentals of embeddings, vector search, and RAG pipe
 
 ## Project Structure
 ```
-
-local-rag-demo/
-│── docs.txt
-│── rag\_local.py
-│── requirements.txt
+Minimal-RAG/
+│── .gitignore
+│── LICENCE
 │── README.md 
-
+│── docs.txt
+│── rag_local.py
+│── requirements.txt
 ````
 
 ---
@@ -33,8 +33,8 @@ local-rag-demo/
 Clone the repository and set up the environment:
 
 ```bash
-git clone https://github.com/snajitchitturi/local-rag-demo.git
-cd local-rag-demo
+git clone https://github.com/sanjitchitturi/Minimal-RAG.git
+cd Minimal-RAG
 
 # create virtual environment
 python3 -m venv .venv
@@ -43,12 +43,11 @@ source .venv/bin/activate
 # install dependencies
 pip install -r requirements.txt
 ````
-
 ---
 
 ## Usage
 
-1. Put your text into `docs.txt` (use any notes, articles, or documentation).
+1. Put your text into `docs.txt`.
 2. Run the script:
 
    ```bash
@@ -59,7 +58,6 @@ pip install -r requirements.txt
    ```
    Enter a query: What is RAG?
    ```
-
 ---
 
 ## Example Run
@@ -78,7 +76,6 @@ Top context:
 
 Answer: RAG is a technique that combines information retrieval with text generation to produce grounded answers.
 ```
-
 ---
 
 ## Requirements
@@ -99,18 +96,12 @@ First run will automatically download Hugging Face models (\~80MB).
 
 * Runs entirely on CPU — no GPU required.
 * If `faiss-cpu` fails to install, the script automatically falls back to `scikit-learn`.
-* You can extend this project into:
-
-  * Using smarter chunking (LangChain/LLMs)
-  * A Gradio web app (for Hugging Face Spaces)
-  * Larger LLMs for better answers
 
 ---
 
 ## License
 
 This project is open-source under the MIT License.
-Feel free to fork, modify, and share!
 
 ---
 
