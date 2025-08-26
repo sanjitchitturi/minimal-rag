@@ -1,3 +1,5 @@
-faiss-cpu
 sentence-transformers
-numpy
+transformers
+torch
+faiss-cpu
+scikit-learn
