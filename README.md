@@ -97,12 +97,6 @@ First run will automatically download Hugging Face models (\~80MB).
 
 ---
 
-## License
-
-This project is open-source under the MIT License.
-
----
-
 ## Acknowledgements
 
 * [Hugging Face Transformers](https://huggingface.co/transformers/)
