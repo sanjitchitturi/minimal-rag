@@ -1,21 +1,21 @@
 # Minimal RAG
 
-A simple **Retrieval-Augmented Generation (RAG)** system implemented in Python. Runs **fully locally** with Hugging Face models — **no API keys required**. Perfect for learning the fundamentals of embeddings, vector search, and RAG pipelines.  
+A simple **Retrieval Augmented Generation (RAG)** system implemented in Python. Runs **fully locally** with Hugging Face models **no API keys required**. Perfect for learning the fundamentals of embeddings, vector search, and RAG pipelines.  
 
 ---
 
 ## Features
-- Indexes a text file (`docs.txt`) into embeddings  
-- Retrieves the most relevant chunks for a query  
-- Generates grounded answers using [`google/flan-t5-small`](https://huggingface.co/google/flan-t5-small)  
-- Uses FAISS for fast similarity search (with sklearn fallback)  
-- Runs locally on CPU (Mac, Linux, Windows)  
+- Indexes a text file (`docs.txt`) into embeddings. 
+- Retrieves the most relevant chunks for a query.  
+- Generates grounded answers using [`google/flan-t5-small`](https://huggingface.co/google/flan-t5-small).
+- Uses FAISS for fast similarity search.  
+- Runs locally on CPU.
 
 ---
 
 ## Project Structure
 ```
-Minimal-RAG/
+minimal-rag/
 │── .gitignore
 │── LICENCE
 │── README.md 
@@ -31,8 +31,8 @@ Minimal-RAG/
 Clone the repository and set up the environment:
 
 ```bash
-git clone https://github.com/sanjitchitturi/Minimal-RAG.git
-cd Minimal-RAG
+git clone https://github.com/sanjitchitturi/minimal-rag.git
+cd minimal-rag
 
 # create virtual environment
 python3 -m venv .venv
@@ -68,7 +68,7 @@ Loading generator (google/flan-t5-small)...
 Enter a query (or 'quit' to exit): What is RAG?
 
 Top context:
-1. Retrieval-Augmented Generation (RAG) is a technique that combines information retrieval with text generation.
+1. Retrieval Augmented Generation (RAG) is a technique that combines information retrieval with text generation.
 2. It uses embeddings and similarity search to retrieve relevant text chunks from a knowledge base.
 3. The retrieved chunks are given to a language model to produce grounded answers.
 
